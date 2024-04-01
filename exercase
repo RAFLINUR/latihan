@@ -1,0 +1,10 @@
+nama_karyawan = input("Masukkan nama karyawan: ")
+jam_kerja_per_hari = float(input("Masukkan jam kerja per hari: "))
+tarif_per_jam = float(input("Masukkan tarif per jam: "))
+
+jam_kerja_per_bulan = jam_kerja_per_hari * 20  
+
+gaji_per_bulan = jam_kerja_per_bulan * tarif_per_jam
+
+print(f"Nama karyawan: {nama_karyawan}")
+print(f"Gaji per bulan: Rp {gaji_per_bulan:,.2f}")
